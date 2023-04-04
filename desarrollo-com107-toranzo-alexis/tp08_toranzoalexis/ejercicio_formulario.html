@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="apellido">apellido</label>
+        <input type="text" name="apelido" id="apellido">
+        <label for="nombre">nombre</label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="edad">edad</label>
+        <input type="number" name="edad" id="edad" min="0">
+        <br>
+        <input type="radio" name="mayorono" value="menor de 18">menor de 18
+        <input type="radio" name="mayorono" value="mayor de 18">mayor de 18
+        <br>
+        <SELECT name="Sexo">
+            <OPTION VALUE="mujer" SELECTED>Femenino
+            <OPTION VALUE="hombre">Masculino
+        </SELECT>
+        <br>
+    
+        <SELECT  NAME="idiomas" MULTIPLE>
+            <OPTION VALUE="ingles">Inglés
+            <OPTION VALUE="frances">Francés
+            <OPTION VALUE="aleman">Alemán
+            <OPTION VALUE="holandes">Holandés
+        </SELECT>
+        <br>
+        <input type="checkbox" name="extras" value="Auto">Auto
+        <input type="checkbox" name="extras" value="camioneta">camioneta
+        <input type="checkbox" name="extras" value="camion">camion
+        <br>
+        <textarea name="comentario" COLS="30" ROWS="4">Comentarios...</textarea>
+        <br>
+        <button type="submit" action="GET">Enviar</button>
+        <button type="reset">Resetear</button>
+    </form> 
+</body>
+</html>
